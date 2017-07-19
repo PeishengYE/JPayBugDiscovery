@@ -24,7 +24,17 @@ public class MainActivity extends AppCompatActivity implements MediaPlayer.OnErr
 
 
         Uri uri = Uri.parse("android.resource://" + getPackageName() + "/"
-                + R.raw.omam);
+                + R.raw.p240);
+
+//        Uri uri = Uri.parse("android.resource://" + getPackageName() + "/"
+//                + R.raw.p360);
+
+//        Uri uri = Uri.parse("android.resource://" + getPackageName() + "/"
+//                + R.raw.p480);
+//
+//        Uri uri = Uri.parse("android.resource://" + getPackageName() + "/"
+//                + R.raw.p720);
+
         videoView.setVisibility(View.VISIBLE);
         videoView.setVideoURI(uri);
 //            String videoPath = Environment.getExternalStorageDirectory()

@@ -15,14 +15,23 @@
         android:layout_height="wrap_content"
         android:text="JPAY Video issue testing" />
 
-    <VideoView
-             android:id="@+id/videoView"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content" ></VideoView>
-             <!--android:layout_gravity="center_horizontal"-->
-             <!--android:layout_marginLeft="-5dp"-->
-             <!--android:layout_weight="9"-->
-       android:clickable="true" />
+    <!--<VideoView-->
+             <!--android:id="@+id/videoView"-->
+             <!--android:layout_width="match_parent"-->
+             <!--android:layout_height="match_parent" ></VideoView>-->
+             <!--&lt;!&ndash;android:layout_gravity="center_horizontal"&ndash;&gt;-->
+             <!--&lt;!&ndash;android:layout_marginLeft="-5dp"&ndash;&gt;-->
+             <!--&lt;!&ndash;android:layout_weight="9"&ndash;&gt;-->
+       <!--android:clickable="true" />-->
 
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" ></VideoView>
+    <!--android:layout_gravity="center_horizontal"-->
+    <!--android:layout_marginLeft="-5dp"-->
+    <!--android:layout_weight="9"-->
+    android:clickable="true" />
 
 </RelativeLayout>
